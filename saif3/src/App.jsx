@@ -5,6 +5,10 @@ import './App.css'
 import User from './controlled_component'
 import Input from './Controlled_comp'
 import CheckBox from './Checkbox'
+import RadioDrop from './Radioanddropdown'
+import LoopMap from './Loop_with_map'
+import Loopm from './Reuse_comp'
+import Clock from './Clock'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,7 +24,12 @@ function App() {
       <User />
       <User /> */}
       {/* <Input/> */}
-      <CheckBox/>
+      {/* <CheckBox/> */}
+      {/* <RadioDrop/> */}
+      {/* <LoopMap/> */}
+      <Clock/>
+      <Loopm/>
+
     </>
   )
 }
